@@ -1,0 +1,38 @@
+// question 1
+void main() {
+// question 1
+  
+int length = 5;
+int breadth = 7;
+int area = length * breadth;
+print("Area : $area");   
+
+// question 2
+int num1 = 7;
+int num2 = num1 + 8;
+double num3 = num2 / 3;
+double num4 = num3 % 5;  
+double i = (num4 ~/ 5) * 5;  
+print("i = $i"); 
+
+
+// question 3
+int a = 60;  
+int b = 70;
+print('a < 50 and a < b : ${a < 50 && a < b}' );
+print('a < 50 or a < b : ${a < 50 || a < b }');
+
+ 
+  
+// question 4  
+var name="robert";
+var english=78;
+var urdu=45;
+var physics=62;
+ var total=300;
+ var obtain = english+urdu+physics;
+ print("Condiate Name: $name");
+ print("Reasult: English : $english Urdu: $urdu Physics: $physics");
+ print("Total Marks ${english+urdu+physics}/300");
+ print("$name % is : ${obtain*100/total}");
+}
